@@ -1,0 +1,474 @@
+.navbar-inverse {
+
+    background-color: transparent;
+
+	border:none;
+
+}
+
+
+
+
+
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+
+    border-color: #C90;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+
+    background: transparent;;
+
+    color: #9d9d9d;
+
+}
+
+
+
+.social [class*="fa fa-"] {
+
+     background-color: rgba(255, 255, 255, 1);
+
+    border-radius: 40px;
+
+	border-color:solid 2px #fff;
+
+    color: #000;
+
+    display: inline-block;
+
+    height: 40px;
+
+    line-height: 40px;
+
+    margin: auto 3px;
+
+    width: 40px;
+
+    font-size: 15px;
+
+    text-align: center;
+
+}
+
+.social{
+
+    margin-bottom: 30px;
+}
+
+p{
+
+	
+
+	color:#fff;
+
+	
+
+}
+
+
+
+.fa-instagram:hover { 
+
+    background-color: #5C4942; 
+
+	text-decoration:none;
+
+}
+
+
+
+.fa-facebook:hover { 
+
+    background-color: #3A5795; 
+
+	text-decoration:none;
+
+}
+
+
+
+.bgcolor{
+
+	margin-top:20px;
+
+	background:#FF9233;
+
+	color:#fff;
+
+	transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+
+		
+
+}
+
+
+
+.bgcolor:hover{
+
+	
+
+	background-color: rgba(0, 0, 0, 0.51);
+
+	color:#FF9233;
+
+	transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+
+	border-color: #FF9233;
+
+		
+
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a {
+
+	font-weight:bold;
+
+    background-color: rgba(0, 0, 0, 0.51);
+
+    color: #fff;
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+	text-transform:uppercase;
+
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a:hover {
+
+    color: #FF9233;
+
+}
+
+
+
+/*.btn-default{
+
+  font-weight: bold;	
+
+  color: #fff;
+
+}*/
+
+
+
+
+
+@media (min-width: 1920px){
+
+    .navbar-nav{
+
+        float:none;
+
+        margin: 0 auto;
+
+        display: table;
+
+        table-layout: fixed;
+
+    }
+
+
+
+
+}
+
+@media (min-width: 1620px){
+
+    .navbar-nav{
+
+        float:none;
+
+        margin: 0 auto;
+
+        display: table;
+
+        table-layout: fixed;
+
+    }
+
+
+
+}
+
+
+
+@media (min-width: 968px){
+
+    .navbar-nav{
+
+        float:none;
+
+        margin: 0 auto;
+
+        display: table;
+
+        table-layout: fixed;
+
+    }
+	
+}
+.fondo{	
+
+	background-image: url("img/cafe-3.jpg");
+
+	background-color:transparent;
+
+  
+
+}
+
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p{
+
+    color: #fff;
+
+    font-family: Verdana, Geneva, sans-serif;
+
+    font-weight: 500;
+
+    line-height: 1.1;
+
+}
+
+
+
+body{ 
+
+	height:100%; margin:0;
+
+	padding-top: 0;
+
+	background-color: #000;
+
+}
+
+
+
+
+
+hr{
+
+	color: #C90;
+
+}
+
+.active a{
+
+	color: #FF9233!important;
+
+	
+
+}
+
+
+
+.navbar-inverse {
+
+	    padding-top: 20px;
+
+		padding-bottom: 20px;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+
+    font-weight: bold;
+
+    background-color: rgba(0, 0, 0, 0.51);
+
+    color: #fff;
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+    text-transform: uppercase;
+
+}
+
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+
+    color: #fff;
+
+    background-color: #080808;
+
+    background: transparent;
+
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a {
+
+    font-weight: bold;
+
+    background-color: rgba(0, 0, 0, 0.51);
+
+	border-right: solid 2px #FFF;
+
+    color: #fff;
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+    text-transform: uppercase;
+
+    background: transparent;
+
+	padding-top:5px;
+
+	padding-bottom:5px;
+
+	
+
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+
+    color: #fff;
+
+    background-color: transparent;
+
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a {
+
+	font-family:Verdana, Geneva, sans-serif;	
+
+	
+
+}
+
+
+
+hr{
+
+	border-top: 5px solid #FFF;
+
+	width:50px;	
+
+	
+
+}
+
+
+
+.fa-tree, .fa-thumbs-o-up, .fa-wpforms, .fa-coffee, .fa-cog, .fa-trophy, .fa-wrench, .fa-lightbulb-o, .fa-comments-o, .fa-envelope-o, .fa-phone{
+
+    color:#fff;
+
+}
+
+
+
+footer {
+  position: relative;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+
+}
+
+.hola{
+	
+	position:relative;
+	
+}
+
+label{
+    color: #FFF;
+}
+
+a{
+    color:#FFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+.margen{
+        margin-top: 30px;
+}
+
+.contacto{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*  
+Sticky Footer Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+
+/* must declare 0 margins on everything, also for main layout components use padding, not 
+vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+html, body {height: 100%;}
+
+wrap {min-height: 100%;}
+
+main {overflow:auto;
+	padding-bottom: 0px;}  /* must be same height as the footer */
+
+footer {position: relative;
+	margin-top: 30px; /* negative value of footer height */
+	clear:both;
+	    background-color: rgba(0, 0, 0, 0.03);
+	} 
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+
+
+/* IMPORTANT
+
+You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+
+*/
+
+.socmar{
+	margin-bottom:20px;
+}
+
+a:hover{
+	color: #FF9233;
+	
+}
+
+.btn-primary {
+    border-color: #FF9233;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}

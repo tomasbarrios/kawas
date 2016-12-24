@@ -1,0 +1,16 @@
+[04-May-2016 09:24:20 Chile/Continental] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_STRING or T_VARIABLE or '$' in /home/kawas/public_html/dev/public/index.php on line 50
+[04-May-2016 14:22:56 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Validator' not found in /home/kawas/public_html/dev/app/Http/Controllers/SiteController.php on line 97
+[04-May-2016 14:24:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/kawas/public_html/dev/app/Http/Controllers/SiteController.php on line 128
+[04-May-2016 14:25:44 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Mail' not found in /home/kawas/public_html/dev/app/Http/Controllers/SiteController.php on line 101
+[04-May-2016 14:26:24 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Mail' not found in /home/kawas/public_html/dev/app/Http/Controllers/SiteController.php on line 102
+[04-May-2016 14:26:28 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Mail' not found in /home/kawas/public_html/dev/app/Http/Controllers/SiteController.php on line 102
+[04-May-2016 14:38:47 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Config' not found in /home/kawas/public_html/dev/app/Http/Controllers/SiteController.php on line 105
+[04-May-2016 14:50:56 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Redirect' not found in /home/kawas/public_html/dev/app/Http/Controllers/SiteController.php on line 125
+[04-May-2016 14:53:01 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Redirect' not found in /home/kawas/public_html/dev/app/Http/Controllers/SiteController.php on line 125
+[04-May-2016 14:53:31 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Redirect' not found in /home/kawas/public_html/dev/app/Http/Controllers/SiteController.php on line 125
+[04-May-2016 14:54:04 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Redirect' not found in /home/kawas/public_html/dev/app/Http/Controllers/SiteController.php on line 125
+[09-Jun-2016 01:23:23 America/Santiago] PHP Fatal error:  Class 'PDO' not found in /home/kawas/public_html/config/database.php on line 16
+[09-Jun-2016 01:23:24 America/Santiago] PHP Fatal error:  Class 'PDO' not found in /home/kawas/public_html/config/database.php on line 16
+[09-Jun-2016 01:23:25 America/Santiago] PHP Fatal error:  Class 'PDO' not found in /home/kawas/public_html/config/database.php on line 16
+[09-Jun-2016 01:23:31 America/Santiago] PHP Fatal error:  Class 'PDO' not found in /home/kawas/public_html/config/database.php on line 16
+[09-Jun-2016 01:23:34 America/Santiago] PHP Fatal error:  Class 'PDO' not found in /home/kawas/public_html/config/database.php on line 16
