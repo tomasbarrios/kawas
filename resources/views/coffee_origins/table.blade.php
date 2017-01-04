@@ -3,7 +3,7 @@
         <th>Title</th>
         <th>Post Date</th>
         <th>Body</th>
-        <th>Post Type</th>
+        <th>Country</th>
         <th>Post Visits</th>
         <th colspan="3">Action</th>
     </thead>
@@ -13,7 +13,7 @@
             <td>{!! $coffeeOrigin->title !!}</td>
             <td>{!! $coffeeOrigin->post_date !!}</td>
             <td>{!! $coffeeOrigin->body !!}</td>
-            <td>{!! $coffeeOrigin->post_type !!}</td>
+            <td>{!! $coffeeOrigin->country !!}</td>
             <td>{!! $coffeeOrigin->post_visits !!}</td>
             <td>
                 {!! Form::open(['route' => ['coffeeOrigins.destroy', $coffeeOrigin->id], 'method' => 'delete']) !!}

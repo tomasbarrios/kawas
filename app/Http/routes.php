@@ -36,8 +36,7 @@ Route::group(['prefix' => 'admin'], function () {
 
 
 
-
-
+Route::resource('shop', 'ShopController', ['only' => ['index', 'show']]);
 
 
 
@@ -55,3 +54,35 @@ Route::group(['prefix' => 'api', 'namespace' => 'API'], function () {
 
 
 Route::resource('coffeeOrigins', 'CoffeeOriginController');
+
+Route::resource('farms', 'FarmController');
+
+Route::resource('coffeeOrigins', 'CoffeeOriginsController');
+
+Route::resource('farms', 'FarmsController');
+
+Route::resource('lots', 'LotsController');
+
+Route::resource('coffeeOrigins', 'CoffeeOriginsController');
+
+Route::resource('coffeeOrigins', 'CoffeeOriginsController');
+
+Route::resource('coffeeOrigins', 'CoffeeOriginsController');
+
+Route::resource('farms', 'FarmsController');
+
+Route::resource('farms', 'FarmsController');
+
+Route::resource('farms', 'FarmsController');
+
+Route::resource('coffeeOrigins', 'CoffeeOriginController');
+
+Route::resource('coffeeOrigins', 'CoffeeOriginController');
+
+Route::resource('farms', 'FarmController');
+
+Route::resource('farms', 'FarmController');
+
+Route::resource('lots', 'LotController');
+
+Route::resource('farms', 'FarmController');

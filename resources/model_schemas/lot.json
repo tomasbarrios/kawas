@@ -11,9 +11,11 @@
         "inIndex": false
     },
     {
-        "type": "relation",
-        "relation": "1tm,Farm"
-    }, 
+        "name": "farm_id",
+        "dbType": "integer:unsigned:foreign,farms,id",
+        "htmlType": "text",
+        "relation": "mt1,Farm,farm_id,id"
+    },
     {
         "name": "title",
         "dbType": "string",
@@ -33,7 +35,7 @@
         "htmlType": "textarea"
     },
     {
-        "name": "country",
+        "name": "lot_type",
         "dbType": "string",
         "htmlType": "radio,Public,Private",
         "searchable": true

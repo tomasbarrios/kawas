@@ -6,3 +6,12 @@ body {
   background: white;
 }
 
+h1 span, h1 a, h1 a:after {
+  position: relative;
+    left: 10px;
+    line-height: 1.6em;
+    background: #ffdb00;
+    -webkit-box-shadow: -10px 0px 0px #ffdb00, 10px 0px 0px #ffdb00;
+    box-shadow: -10px 0px 0px #ffdb00, 10px 0px 0px #ffdb00;
+    box-decoration-break: clone;
+}

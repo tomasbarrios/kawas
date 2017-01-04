@@ -1,48 +1,54 @@
 <!-- Id Field -->
 <div class="form-group">
     {!! Form::label('id', 'Id:') !!}
-    <p>{!! $coffeeOrigin->id !!}</p>
+    <p>{!! $lot->id !!}</p>
+</div>
+
+<!-- Farm Id Field -->
+<div class="form-group">
+    {!! Form::label('farm_id', 'Farm Id:') !!}
+    <p>{!! $lot->farm_id !!}</p>
 </div>
 
 <!-- Title Field -->
 <div class="form-group">
     {!! Form::label('title', 'Title:') !!}
-    <p>{!! $coffeeOrigin->title !!}</p>
+    <p>{!! $lot->title !!}</p>
 </div>
 
 <!-- Post Date Field -->
 <div class="form-group">
     {!! Form::label('post_date', 'Post Date:') !!}
-    <p>{!! $coffeeOrigin->post_date !!}</p>
+    <p>{!! $lot->post_date !!}</p>
 </div>
 
 <!-- Body Field -->
 <div class="form-group">
     {!! Form::label('body', 'Body:') !!}
-    <p>{!! $coffeeOrigin->body !!}</p>
+    <p>{!! $lot->body !!}</p>
 </div>
 
-<!-- Country Field -->
+<!-- Lot Type Field -->
 <div class="form-group">
-    {!! Form::label('country', 'Country:') !!}
-    <p>{!! $coffeeOrigin->country !!}</p>
+    {!! Form::label('lot_type', 'Lot Type:') !!}
+    <p>{!! $lot->lot_type !!}</p>
 </div>
 
 <!-- Post Visits Field -->
 <div class="form-group">
     {!! Form::label('post_visits', 'Post Visits:') !!}
-    <p>{!! $coffeeOrigin->post_visits !!}</p>
+    <p>{!! $lot->post_visits !!}</p>
 </div>
 
 <!-- Created At Field -->
 <div class="form-group">
     {!! Form::label('created_at', 'Created At:') !!}
-    <p>{!! $coffeeOrigin->created_at !!}</p>
+    <p>{!! $lot->created_at !!}</p>
 </div>
 
 <!-- Updated At Field -->
 <div class="form-group">
     {!! Form::label('updated_at', 'Updated At:') !!}
-    <p>{!! $coffeeOrigin->updated_at !!}</p>
+    <p>{!! $lot->updated_at !!}</p>
 </div>
 

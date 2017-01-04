@@ -12,8 +12,14 @@
     },
     {
         "type": "relation",
-        "relation": "1tm,Farm"
+        "relation": "1tm,Lot"
     }, 
+    {
+        "name": "coffee_origin_id",
+        "dbType": "integer:unsigned:foreign,coffee_origins,id",
+        "htmlType": "text",
+        "relation": "mt1,Farm,coffee_origin_id"
+    },
     {
         "name": "title",
         "dbType": "string",
@@ -33,7 +39,7 @@
         "htmlType": "textarea"
     },
     {
-        "name": "country",
+        "name": "post_type",
         "dbType": "string",
         "htmlType": "radio,Public,Private",
         "searchable": true

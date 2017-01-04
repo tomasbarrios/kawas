@@ -10,8 +10,8 @@
         "laravelcollective/html": "5.2.*",
         "laracasts/flash": "^2.0",
         "infyomlabs/laravel-generator": "5.2.x-dev",
-        "laravelcollective/html": "5.2.*",
-        "infyomlabs/adminlte-templates": "5.2.x-dev"
+        "infyomlabs/adminlte-templates": "5.2.x-dev",
+        "gloudemans/shoppingcart": "^2.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -2,10 +2,10 @@
 
 namespace App\Repositories;
 
-use App\Models\CoffeeOrigin;
+use App\Models\Lot;
 use InfyOm\Generator\Common\BaseRepository;
 
-class CoffeeOriginRepository extends BaseRepository
+class LotRepository extends BaseRepository
 {
     /**
      * @var array
@@ -13,7 +13,7 @@ class CoffeeOriginRepository extends BaseRepository
     protected $fieldSearchable = [
         'title',
         'post_date',
-        'country'
+        'lot_type'
     ];
 
     /**
@@ -21,6 +21,6 @@ class CoffeeOriginRepository extends BaseRepository
      **/
     public function model()
     {
-        return CoffeeOrigin::class;
+        return Lot::class;
     }
 }

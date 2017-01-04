@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class CoffeeOrigins extends Seeder
+class CoffeeOriginsSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,8 +11,8 @@ class CoffeeOrigins extends Seeder
      */
     public function run()
     {
-        $coffeeOrigin = factory(App\CoffeeOrigin::class, 2)->create();
-        $user = factory(App\User::class)->create([
+        // $coffeeOrigin = factory(App\Models\CoffeeOrigin::class, 2)->create();
+        $coffeeOrigins = factory(App\Models\CoffeeOrigin::class)->create([
             'title' => 'Burundi',
         ]);
     }

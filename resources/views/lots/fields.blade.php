@@ -1,3 +1,9 @@
+<!-- Farm Id Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('farm_id', 'Farm Id:') !!}
+    {!! Form::text('farm_id', null, ['class' => 'form-control']) !!}
+</div>
+
 <!-- Title Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('title', 'Title:') !!}
@@ -16,14 +22,14 @@
     {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Country Field -->
+<!-- Lot Type Field -->
 <div class="form-group col-sm-12">
-    {!! Form::label('country', 'Country:') !!}
+    {!! Form::label('lot_type', 'Lot Type:') !!}
     <label class="radio-inline">
-        {!! Form::radio('country', "Public", null) !!} Public
+        {!! Form::radio('lot_type', "Public", null) !!} Public
     </label>
     <label class="radio-inline">
-        {!! Form::radio('country', "Private", null) !!} Private
+        {!! Form::radio('lot_type', "Private", null) !!} Private
     </label>
 </div>
 
@@ -36,5 +42,5 @@
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
     {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-    <a href="{!! route('coffeeOrigins.index') !!}" class="btn btn-default">Cancel</a>
+    <a href="{!! route('lots.index') !!}" class="btn btn-default">Cancel</a>
 </div>

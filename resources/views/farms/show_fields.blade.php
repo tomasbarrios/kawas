@@ -1,48 +1,54 @@
 <!-- Id Field -->
 <div class="form-group">
     {!! Form::label('id', 'Id:') !!}
-    <p>{!! $coffeeOrigin->id !!}</p>
+    <p>{!! $farm->id !!}</p>
+</div>
+
+<!-- Coffee Origin Id Field -->
+<div class="form-group">
+    {!! Form::label('coffee_origin_id', 'Coffee Origin Id:') !!}
+    <p>{!! $farm->coffee_origin_id !!}</p>
 </div>
 
 <!-- Title Field -->
 <div class="form-group">
     {!! Form::label('title', 'Title:') !!}
-    <p>{!! $coffeeOrigin->title !!}</p>
+    <p>{!! $farm->title !!}</p>
 </div>
 
 <!-- Post Date Field -->
 <div class="form-group">
     {!! Form::label('post_date', 'Post Date:') !!}
-    <p>{!! $coffeeOrigin->post_date !!}</p>
+    <p>{!! $farm->post_date !!}</p>
 </div>
 
 <!-- Body Field -->
 <div class="form-group">
     {!! Form::label('body', 'Body:') !!}
-    <p>{!! $coffeeOrigin->body !!}</p>
+    <p>{!! $farm->body !!}</p>
 </div>
 
-<!-- Country Field -->
+<!-- Post Type Field -->
 <div class="form-group">
-    {!! Form::label('country', 'Country:') !!}
-    <p>{!! $coffeeOrigin->country !!}</p>
+    {!! Form::label('post_type', 'Post Type:') !!}
+    <p>{!! $farm->post_type !!}</p>
 </div>
 
 <!-- Post Visits Field -->
 <div class="form-group">
     {!! Form::label('post_visits', 'Post Visits:') !!}
-    <p>{!! $coffeeOrigin->post_visits !!}</p>
+    <p>{!! $farm->post_visits !!}</p>
 </div>
 
 <!-- Created At Field -->
 <div class="form-group">
     {!! Form::label('created_at', 'Created At:') !!}
-    <p>{!! $coffeeOrigin->created_at !!}</p>
+    <p>{!! $farm->created_at !!}</p>
 </div>
 
 <!-- Updated At Field -->
 <div class="form-group">
     {!! Form::label('updated_at', 'Updated At:') !!}
-    <p>{!! $coffeeOrigin->updated_at !!}</p>
+    <p>{!! $farm->updated_at !!}</p>
 </div>
 

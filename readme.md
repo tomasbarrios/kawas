@@ -13,6 +13,10 @@ php artisan --version
 # Crear nuevos objectos con laravel generator
 
 1. Definir json en resources/model_schemas
+
+php artisan infyom:scaffold CoffeeOrigins --fieldsFile=origin.json
+php artisan infyom:scaffold Farms --fieldsFile=farm.json
+php artisan infyom:scaffold Lots --fieldsFile=lot.json
 2. php artisan infyom:migration CoffeeOrigins --fieldsFile=origin.json
 3. Agregar factory en database/factories/ModelFactory.php
 4. Generar Seed: php artisan make:seed CoffeeOrigins
@@ -24,6 +28,7 @@ $coffeeOrigin = factory(App\CoffeeOrigin::class, 2)->create();
 ]);
 ```
 6. php artisan migrate
+7. php artisan migrate:refresh --seed
 
 # Laravel PHP Framework
 

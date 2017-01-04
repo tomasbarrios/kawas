@@ -6,25 +6,26 @@ use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * Class CoffeeOrigin
+ * Class Lot
  * @package App\Models
- * @version January 4, 2017, 4:14 am UTC
+ * @version January 4, 2017, 4:18 am UTC
  */
-class CoffeeOrigin extends Model
+class Lot extends Model
 {
     use SoftDeletes;
 
-    public $table = 'coffee_origins';
+    public $table = 'lots';
     
 
     protected $dates = ['deleted_at'];
 
 
     public $fillable = [
+        'farm_id',
         'title',
         'post_date',
         'body',
-        'country',
+        'lot_type',
         'post_visits'
     ];
 
@@ -34,10 +35,11 @@ class CoffeeOrigin extends Model
      * @var array
      */
     protected $casts = [
+        'farm_id' => 'integer',
         'title' => 'string',
         'post_date' => 'datetime',
         'body' => 'string',
-        'country' => 'string',
+        'lot_type' => 'string',
         'post_visits' => 'integer'
     ];
 
@@ -51,10 +53,10 @@ class CoffeeOrigin extends Model
     ];
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      **/
-    public function farms()
+    public function farm()
     {
-        return $this->hasMany(\App\Models\Farm::class);
+        return $this->belongsTo(\App\Models\Farm::class, 'farm_id', 'id');
     }
 }
